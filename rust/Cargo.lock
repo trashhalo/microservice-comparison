@@ -153,16 +153,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "basics"
-version = "0.1.0"
-dependencies = [
- "actix-web 0.7.3 (registry+https://github.com/rust-lang/crates.io-index)",
- "futures 0.1.23 (registry+https://github.com/rust-lang/crates.io-index)",
- "json 0.11.13 (registry+https://github.com/rust-lang/crates.io-index)",
- "reqwest 0.8.8 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
 name = "bitflags"
 version = "0.9.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -723,6 +713,16 @@ dependencies = [
 name = "memoffset"
 version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "microservice-comparison-rust"
+version = "0.0.0"
+dependencies = [
+ "actix-web 0.7.3 (registry+https://github.com/rust-lang/crates.io-index)",
+ "futures 0.1.23 (registry+https://github.com/rust-lang/crates.io-index)",
+ "json 0.11.13 (registry+https://github.com/rust-lang/crates.io-index)",
+ "reqwest 0.8.8 (registry+https://github.com/rust-lang/crates.io-index)",
+]
 
 [[package]]
 name = "mime"
