@@ -1,0 +1,7 @@
+name: microservice-comparison-crystal
+version: 0.0.0
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    version: ~> 0.24.0
