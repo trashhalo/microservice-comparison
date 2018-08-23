@@ -10,7 +10,9 @@ get "/" do
   JSON.build do |json|
     json.array do
       children.map do |c|
-        json.field "title", c["title"]
+        json.object do
+          json.field "title", c["title"]
+        end
       end
     end
   end
